@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EllipHRModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EllipHREntities2" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetReportOnAlltickets" ReturnType="Collection(EllipHRModel1.GetReportOnAlltickets_Result)">
+      <Parameter Name="Status" Mode="In" Type="String" />
+      <Parameter Name="AssignedStatus" Mode="In" Type="Int32" />
+      <Parameter Name="TicketType" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetReportOnAlltickets_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TicketNumber" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="IssueDate" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AssignedTo" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="STATUS" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Approval_Status" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="ClientName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ModuleName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="FormName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Priority" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Assigned_Status" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TicketTypeName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Version" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="Ticket_ID" Nullable="false" />
+    <Property Type="String" Name="EntryDate" Nullable="true" MaxLength="200" />
+    <Property Type="Int64" Name="Serial_No" Nullable="true" />
+  </ComplexType>
+</Schema>

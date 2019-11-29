@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CustomerComm" targetNamespace="http://tempuri.org/CustomerComm.xsd" xmlns:mstns="http://tempuri.org/CustomerComm.xsd" xmlns="http://tempuri.org/CustomerComm.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CustomerComm" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CustomerComm" msprop:Generator_UserDSName="CustomerComm">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CustomerComm" msprop:Generator_TableClassName="CustomerCommDataTable" msprop:Generator_TableVarName="tableCustomerComm" msprop:Generator_TablePropName="_CustomerComm" msprop:Generator_RowDeletingName="CustomerCommRowDeleting" msprop:Generator_RowChangingName="CustomerCommRowChanging" msprop:Generator_RowEvHandlerName="CustomerCommRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomerCommRowDeleted" msprop:Generator_UserTableName="CustomerComm" msprop:Generator_RowChangedName="CustomerCommRowChanged" msprop:Generator_RowEvArgName="CustomerCommRowChangeEvent" msprop:Generator_RowClassName="CustomerCommRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiscussDate" msprop:Generator_ColumnVarNameInTable="columnDiscussDate" msprop:Generator_ColumnPropNameInRow="DiscussDate" msprop:Generator_ColumnPropNameInTable="DiscussDateColumn" msprop:Generator_UserColumnName="DiscussDate" type="xs:string" minOccurs="0" />
+              <xs:element name="PersonName" msprop:Generator_ColumnVarNameInTable="columnPersonName" msprop:Generator_ColumnPropNameInRow="PersonName" msprop:Generator_ColumnPropNameInTable="PersonNameColumn" msprop:Generator_UserColumnName="PersonName" type="xs:string" minOccurs="0" />
+              <xs:element name="PersonRep" msprop:Generator_ColumnVarNameInTable="columnPersonRep" msprop:Generator_ColumnPropNameInRow="PersonRep" msprop:Generator_ColumnPropNameInTable="PersonRepColumn" msprop:Generator_UserColumnName="PersonRep" type="xs:string" minOccurs="0" />
+              <xs:element name="Discussion" msprop:Generator_ColumnVarNameInTable="columnDiscussion" msprop:Generator_ColumnPropNameInRow="Discussion" msprop:Generator_ColumnPropNameInTable="DiscussionColumn" msprop:Generator_UserColumnName="Discussion" type="xs:string" minOccurs="0" />
+              <xs:element name="ActionName" msprop:Generator_ColumnVarNameInTable="columnActionName" msprop:Generator_ColumnPropNameInRow="ActionName" msprop:Generator_ColumnPropNameInTable="ActionNameColumn" msprop:Generator_UserColumnName="ActionName" type="xs:string" minOccurs="0" />
+              <xs:element name="ActionDate" msprop:Generator_ColumnVarNameInTable="columnActionDate" msprop:Generator_ColumnPropNameInRow="ActionDate" msprop:Generator_ColumnPropNameInTable="ActionDateColumn" msprop:Generator_UserColumnName="ActionDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" msprop:Generator_UserColumnName="Remark" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ContactDetail" msprop:Generator_TableClassName="ContactDetailDataTable" msprop:Generator_TableVarName="tableContactDetail" msprop:Generator_RowChangedName="ContactDetailRowChanged" msprop:Generator_TablePropName="ContactDetail" msprop:Generator_RowDeletingName="ContactDetailRowDeleting" msprop:Generator_RowChangingName="ContactDetailRowChanging" msprop:Generator_RowEvHandlerName="ContactDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="ContactDetailRowDeleted" msprop:Generator_RowClassName="ContactDetailRow" msprop:Generator_UserTableName="ContactDetail" msprop:Generator_RowEvArgName="ContactDetailRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PersonName" msprop:Generator_ColumnVarNameInTable="columnPersonName" msprop:Generator_ColumnPropNameInRow="PersonName" msprop:Generator_ColumnPropNameInTable="PersonNameColumn" msprop:Generator_UserColumnName="PersonName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactNo" msprop:Generator_ColumnVarNameInTable="columnContactNo" msprop:Generator_ColumnPropNameInRow="ContactNo" msprop:Generator_ColumnPropNameInTable="ContactNoColumn" msprop:Generator_UserColumnName="ContactNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

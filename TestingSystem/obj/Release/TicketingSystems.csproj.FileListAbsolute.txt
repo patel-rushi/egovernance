@@ -1,0 +1,143 @@
+C:\EllipHR\trunk\TestingSystem\bin\Release\Form2.resx
+C:\EllipHR\trunk\TestingSystem\bin\Release\Form2.cs
+C:\EllipHR\trunk\TestingSystem\bin\Release\Form2.Designer.cs
+C:\EllipHR\trunk\TestingSystem\bin\Release\EllipHR.exe.config
+C:\EllipHR\trunk\TestingSystem\bin\Release\EllipHR.exe
+C:\EllipHR\trunk\TestingSystem\bin\Release\EllipHR.pdb
+C:\EllipHR\trunk\TestingSystem\bin\Release\itextsharp.dll
+C:\EllipHR\trunk\TestingSystem\bin\Release\Microsoft.SqlServer.Types.dll
+C:\EllipHR\trunk\TestingSystem\bin\Release\Interop.AcroPDFLib.dll
+C:\EllipHR\trunk\TestingSystem\bin\Release\AxInterop.AcroPDFLib.dll
+C:\EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csprojAssemblyReference.cache
+C:\EllipHR\trunk\TestingSystem\obj\Release\Interop.AcroPDFLib.dll
+C:\EllipHR\trunk\TestingSystem\obj\Release\AxInterop.AcroPDFLib.dll
+C:\EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.ResolveComReference.cache
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.AMC.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ApprovedTickets.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\AutoCompleteComboBox.SuggestComboBox.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\PagingUserControl.PagingControl.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.AssigneTicket.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BankMaster.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BaseForm.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BusyIndicator.BusyIndicatorPanel.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BusyIndicator.BusyIndicatorContentPanel.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ClientOrder.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ClientOrder_Register.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CommunicationMethod.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomerCommunication.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomerMaster.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomerTypeCategoryGroupMaster.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Customer_Inquiry.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.DailyWorkReport.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.DownloadCustomerComm.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.DuesTicket.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\MasterUpload.Form2.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ImageUploadUserControl.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.MarketingRep.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.MDIParent.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Mytickets.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.NewTicket.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\Inventory_Management.PatternImagePopup.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.PendingAction.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ProcessMasterPopup.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Product.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Properties.Resources.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ReportedBy.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ReportDueTickets.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ShowDetailsDuesTicket.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ShowDetails_CustomerInquiry.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ShowDetails_CustomerMaster.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.SpRequirementMaster.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.StateCitypopup.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.TDCImagePopup.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.TicketsApproval.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.UserLogIn.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.UserRegister.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.GenerateResource.cache
+C:\EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.CoreCompileInputs.cache
+C:\EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.CopyComplete
+C:\EllipHR\trunk\TestingSystem\obj\Release\EllipHR.exe
+C:\EllipHR\trunk\TestingSystem\obj\Release\EllipHR.pdb
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\Form2.resx
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\Form2.cs
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\Form2.Designer.cs
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EllipHR.exe.config
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EllipHR.exe
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EllipHR.pdb
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\itextsharp.dll
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\Interop.AcroPDFLib.dll
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\AxInterop.AcroPDFLib.dll
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csprojAssemblyReference.cache
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\Interop.AcroPDFLib.dll
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\AxInterop.AcroPDFLib.dll
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.ResolveComReference.cache
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.AMC.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ApprovedTickets.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\AutoCompleteComboBox.SuggestComboBox.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\PagingUserControl.PagingControl.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.AssigneTicket.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BankMaster.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BaseForm.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BusyIndicator.BusyIndicatorPanel.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.BusyIndicator.BusyIndicatorContentPanel.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ClientOrder.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ClientOrder_Register.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CommunicationMethod.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomerCommunication.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomerMaster.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomerTypeCategoryGroupMaster.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Customer_Inquiry.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.DailyWorkReport.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.DownloadCustomerComm.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.DuesTicket.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\MasterUpload.Form2.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ImageUploadUserControl.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.MarketingRep.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.MDIParent.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Mytickets.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.NewTicket.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\Inventory_Management.PatternImagePopup.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.PendingAction.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ProcessMasterPopup.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Product.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Properties.Resources.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ReportedBy.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ReportDueTickets.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ShowDetailsDuesTicket.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ShowDetails_CustomerInquiry.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.ShowDetails_CustomerMaster.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.SpRequirementMaster.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.StateCitypopup.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.TDCImagePopup.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.TicketsApproval.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.UserLogIn.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.UserRegister.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.GenerateResource.cache
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.CoreCompileInputs.cache
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TicketingSystems.csproj.CopyComplete
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\EllipHR.exe
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\EllipHR.pdb
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Add_Module.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Add_Form.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomMessageBox.resources
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Add_Version.resources
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.dll
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.SqlServer.dll
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.xml
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.SqlServer.xml
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\RdlCompile.cache
+C:\Test EllipHR\trunk\TestingSystem\obj\Release\RdlCompile.compiled
+C:\Test EllipHR\trunk\TestingSystem\bin\Release\AutoComplateComboBox.pdb
+C:\EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.dll
+C:\EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.SqlServer.dll
+C:\EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.xml
+C:\EllipHR\trunk\TestingSystem\bin\Release\EntityFramework.SqlServer.xml
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Add_Form.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Add_Module.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.Add_Version.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.CustomMessageBox.resources
+C:\EllipHR\trunk\TestingSystem\obj\Release\RdlCompile.cache
+C:\EllipHR\trunk\TestingSystem\obj\Release\RdlCompile.compiled
+C:\EllipHR\trunk\TestingSystem\obj\Release\TestingSystems.AccessRights.resources
+C:\EllipHR\trunk\TestingSystem\bin\Release\AutoComplateComboBox.pdb

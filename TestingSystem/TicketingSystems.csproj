@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96BC9101-76A4-463E-BCA3-CF1F1204E945}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestingSystems</RootNamespace>
+    <AssemblyName>EllipHR</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1357.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1357.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessRights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessRights.Designer.cs">
+      <DependentUpon>AccessRights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActionDataBase.cs" />
+    <Compile Include="AddFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFeedback.Designer.cs">
+      <DependentUpon>AddFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSkillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSkillForm.Designer.cs">
+      <DependentUpon>AddSkillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Form.Designer.cs">
+      <DependentUpon>Add_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Module.Designer.cs">
+      <DependentUpon>Add_Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Version.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Version.Designer.cs">
+      <DependentUpon>Add_Version.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AMC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AMC.Designer.cs">
+      <DependentUpon>AMC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppCode\clsBindData.cs" />
+    <Compile Include="AppCode\clsCon.cs" />
+    <Compile Include="ApprovedTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApprovedTickets.Designer.cs">
+      <DependentUpon>ApprovedTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\AutoComplateComboBox\Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Data\AutoComplateComboBox\SuggestComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Data\AutoFitForm.cs" />
+    <Compile Include="App_Data\clsAccessMenu.cs" />
+    <Compile Include="App_Data\clsAccessRights.cs" />
+    <Compile Include="App_Data\clsApprovedTicket.cs" />
+    <Compile Include="App_Data\clsAssigneTickets.cs" />
+    <Compile Include="App_Data\clsBankMaster.cs" />
+    <Compile Include="App_Data\clsBindUser.cs" />
+    <Compile Include="App_Data\clsCityState.cs" />
+    <Compile Include="App_Data\clsConfigaration.cs" />
+    <Compile Include="App_Data\clsConnection.cs" />
+    <Compile Include="App_Data\clsCustomerMaster.cs" />
+    <Compile Include="App_Data\clsCustomerTypeCategoryGroupMaster.cs" />
+    <Compile Include="App_Data\clsDailyAttendanceSheet.cs" />
+    <Compile Include="App_Data\clsDepartment.cs" />
+    <Compile Include="App_Data\clsDieMaster.cs" />
+    <Compile Include="App_Data\clsDueClear.cs" />
+    <Compile Include="App_Data\clsDueTickets.cs" />
+    <Compile Include="App_Data\clsEmployeeDetails.cs" />
+    <Compile Include="App_Data\clsEncrypt.cs" />
+    <Compile Include="App_Data\clsFeedback.cs" />
+    <Compile Include="App_Data\clsFileUpload.cs" />
+    <Compile Include="App_Data\clsLeaveApplication.cs" />
+    <Compile Include="App_Data\Clslogin.cs" />
+    <Compile Include="App_Data\clsManagementFeedback.cs" />
+    <Compile Include="App_Data\clsMDI.cs" />
+    <Compile Include="App_Data\clsMyTickets.cs" />
+    <Compile Include="App_Data\clsNewTickets.cs" />
+    <Compile Include="App_Data\ClsPatternCheckLIstMaster.cs" />
+    <Compile Include="App_Data\clsPerformance.cs" />
+    <Compile Include="App_Data\clsPerformanceCriteria.cs" />
+    <Compile Include="App_Data\clsProcess.cs" />
+    <Compile Include="App_Data\clsPurchaseItemTypeCategoryGroupMaster.cs" />
+    <Compile Include="App_Data\clsRegister.cs" />
+    <Compile Include="App_Data\clsSkillSet.cs" />
+    <Compile Include="App_Data\ClsSPRequirement.cs" />
+    <Compile Include="App_Data\clsTicketApproval.cs" />
+    <Compile Include="App_Data\clsValues.cs" />
+    <Compile Include="App_Data\clsWorkReport.cs" />
+    <Compile Include="App_Data\Constants.cs" />
+    <Compile Include="App_Data\CustomLabelText.cs" />
+    <Compile Include="App_Data\Enums.cs" />
+    <Compile Include="App_Data\GlobleFunctionsHelper.cs" />
+    <Compile Include="App_Data\Helper.cs" />
+    <Compile Include="App_Data\MenuHelper.cs" />
+    <Compile Include="App_Data\PagingUserControl\PagingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="App_Data\PagingUserControl\PagingControl.Designer.cs">
+      <DependentUpon>PagingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\PagingUserControl\Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Data\ProcessPopupInputParameters.cs" />
+    <Compile Include="App_Data\PurchaseItemInputParameters.cs" />
+    <Compile Include="App_Data\Session.cs" />
+    <Compile Include="App_Data\ValidationHelper.cs" />
+    <Compile Include="AssigneTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssigneTicket.Designer.cs">
+      <DependentUpon>AssigneTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\ClsGetData.cs" />
+    <Compile Include="BankMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankMaster.Designer.cs">
+      <DependentUpon>BankMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusyIndicatorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BusyIndicator\BusyIndicatorContentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BusyIndicator\BusyIndicatorContentPanel.designer.cs">
+      <DependentUpon>BusyIndicatorContentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ClientOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientOrder.Designer.cs">
+      <DependentUpon>ClientOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientOrderDatabase.cs" />
+    <Compile Include="ClientOrder_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientOrder_Register.Designer.cs">
+      <DependentUpon>ClientOrder_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsDAL.cs" />
+    <Compile Include="CommMethodDataBase.cs" />
+    <Compile Include="Common\ApplicationConfiguration.cs" />
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\Enums.cs" />
+    <Compile Include="Common\PageConfiguration.cs" />
+    <Compile Include="Common\Session.cs" />
+    <Compile Include="CommunicationDatabase.cs" />
+    <Compile Include="CommunicationMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommunicationMethod.Designer.cs">
+      <DependentUpon>CommunicationMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerCommunication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerCommunication.Designer.cs">
+      <DependentUpon>CustomerCommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInquiry_Database.cs" />
+    <Compile Include="CustomerMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMaster.Designer.cs">
+      <DependentUpon>CustomerMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSupplierInputParameters.cs" />
+    <Compile Include="CustomerTypeCategoryGroupMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerTypeCategoryGroupMaster.Designer.cs">
+      <DependentUpon>CustomerTypeCategoryGroupMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Inquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Inquiry.Designer.cs">
+      <DependentUpon>Customer_Inquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyWorkReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyWorkReport.Designer.cs">
+      <DependentUpon>DailyWorkReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_EllipHRDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_EllipHRDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadCustomerComm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownloadCustomerComm.Designer.cs">
+      <DependentUpon>DownloadCustomerComm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds\CustomerComm.cs">
+      <DependentUpon>CustomerComm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds\CustomerComm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerComm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds\dsApprovedTickets.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsApprovedTickets.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds\dsDueTickets.cs">
+      <DependentUpon>dsDueTickets.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds\dsDueTickets.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDueTickets.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DuesTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuesTicket.Designer.cs">
+      <DependentUpon>DuesTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="FeedbackDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedbackDetails.Designer.cs">
+      <DependentUpon>FeedbackDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FormInputParameters.cs" />
+    <Compile Include="GoogleFeeds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoogleFeeds.Designer.cs">
+      <DependentUpon>GoogleFeeds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ApplicationHelper.cs" />
+    <Compile Include="Helpers\AssemblyHelper.cs" />
+    <Compile Include="Helpers\ConfigurationHelper.cs" />
+    <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Helpers\ExceptionHandler.cs" />
+    <Compile Include="Helpers\ExecutionHelper.cs" />
+    <Compile Include="Helpers\ExportFileHelper.cs" />
+    <Compile Include="Helpers\Extension.cs" />
+    <Compile Include="Helpers\PathHelper.cs" />
+    <Compile Include="Helpers\SerializeDeserializeHelper.cs" />
+    <Compile Include="HR\EmployeeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR\EmployeeDetails.Designer.cs">
+      <DependentUpon>EmployeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR\EmployeeMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR\EmployeeMaster.Designer.cs">
+      <DependentUpon>EmployeeMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageUploadUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageUploadUserControl.designer.cs">
+      <DependentUpon>ImageUploadUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveApplication.Designer.cs">
+      <DependentUpon>LeaveApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveApplicationRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveApplicationRegister.Designer.cs">
+      <DependentUpon>LeaveApplicationRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagementFeedback.Designer.cs">
+      <DependentUpon>ManagementFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketingRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarketingRep.Designer.cs">
+      <DependentUpon>MarketingRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent.Designer.cs">
+      <DependentUpon>MDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTickets.Designer.cs">
+      <DependentUpon>MyTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTicket.Designer.cs">
+      <DependentUpon>NewTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatternImagePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatternImagePopup.designer.cs">
+      <DependentUpon>PatternImagePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PendingAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PendingAction.Designer.cs">
+      <DependentUpon>PendingAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Performance.Designer.cs">
+      <DependentUpon>Performance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformanceCriteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformanceCriteria.Designer.cs">
+      <DependentUpon>PerformanceCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonRepDatabase.cs" />
+    <Compile Include="ProcessMasterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMasterPopup.Designer.cs">
+      <DependentUpon>ProcessMasterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDataBase.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDueTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportDueTickets.Designer.cs">
+      <DependentUpon>ReportDueTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportedBy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportedBy.Designer.cs">
+      <DependentUpon>ReportedBy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowDetailsWorkReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDetailsWorkReports.Designer.cs">
+      <DependentUpon>ShowDetailsWorkReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowDetails_CustomerInquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDetails_CustomerInquiry.Designer.cs">
+      <DependentUpon>ShowDetails_CustomerInquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowDetails_CustomerMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDetails_CustomerMaster.Designer.cs">
+      <DependentUpon>ShowDetails_CustomerMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillsetDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkillsetDetails.Designer.cs">
+      <DependentUpon>SkillsetDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpRequirementMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpRequirementMaster.Designer.cs">
+      <DependentUpon>SpRequirementMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="StateCitypopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StateCitypopup.Designer.cs">
+      <DependentUpon>StateCitypopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TDCImagePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDCImagePopup.Designer.cs">
+      <DependentUpon>TDCImagePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketsApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketsApproval.Designer.cs">
+      <DependentUpon>TicketsApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogIn.Designer.cs">
+      <DependentUpon>UserLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegister.Designer.cs">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_iCAST_IMS_DEMOProductionReportSandNew.cs">
+      <DependentUpon>_iCAST_IMS_DEMOProductionReportSandNew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_iCAST_IMS_DEMOProductionReportSandNew.Designer.cs">
+      <DependentUpon>_iCAST_IMS_DEMOProductionReportSandNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_iCAST_IMS_DEMOProductionReportSandNew1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_iCAST_IMS_DEMOProductionReportSandNew.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccessRights.resx">
+      <DependentUpon>AccessRights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFeedback.resx">
+      <DependentUpon>AddFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSkillForm.resx">
+      <DependentUpon>AddSkillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Form.resx">
+      <DependentUpon>Add_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Module.resx">
+      <DependentUpon>Add_Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Version.resx">
+      <DependentUpon>Add_Version.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AMC.resx">
+      <DependentUpon>AMC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApprovedTickets.resx">
+      <DependentUpon>ApprovedTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_Data\AutoComplateComboBox\obj\Release\AutoCompleteComboBox.SuggestComboBox.resources" />
+    <EmbeddedResource Include="App_Data\AutoComplateComboBox\SuggestComboBox.resx">
+      <DependentUpon>SuggestComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_Data\PagingUserControl\obj\Release\PagingUserControl.PagingControl.resources" />
+    <EmbeddedResource Include="App_Data\PagingUserControl\PagingControl.resx">
+      <DependentUpon>PagingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssigneTicket.resx">
+      <DependentUpon>AssigneTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankMaster.resx">
+      <DependentUpon>BankMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusyIndicatorPanel.resx">
+      <DependentUpon>BusyIndicatorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusyIndicator\BusyIndicatorContentPanel.resx">
+      <DependentUpon>BusyIndicatorContentPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientOrder.resx">
+      <DependentUpon>ClientOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientOrder_Register.resx">
+      <DependentUpon>ClientOrder_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommunicationMethod.resx">
+      <DependentUpon>CommunicationMethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerCommunication.resx">
+      <DependentUpon>CustomerCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerMaster.resx">
+      <DependentUpon>CustomerMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerTypeCategoryGroupMaster.resx">
+      <DependentUpon>CustomerTypeCategoryGroupMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Inquiry.resx">
+      <DependentUpon>Customer_Inquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyWorkReport.resx">
+      <DependentUpon>DailyWorkReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadCustomerComm.resx">
+      <DependentUpon>DownloadCustomerComm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuesTicket.resx">
+      <DependentUpon>DuesTicket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dueTicketsReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedbackDetails.resx">
+      <DependentUpon>FeedbackDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\EmployeeDetails.resx">
+      <DependentUpon>EmployeeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\EmployeeMaster.resx">
+      <DependentUpon>EmployeeMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageUploadUserControl.resx">
+      <DependentUpon>ImageUploadUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaveApplication.resx">
+      <DependentUpon>LeaveApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaveApplicationRegister.resx">
+      <DependentUpon>LeaveApplicationRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagementFeedback.resx">
+      <DependentUpon>ManagementFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketingRep.resx">
+      <DependentUpon>MarketingRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent.resx">
+      <DependentUpon>MDIParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTickets.resx">
+      <DependentUpon>MyTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTicket.resx">
+      <DependentUpon>NewTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatternImagePopup.resx">
+      <DependentUpon>PatternImagePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingAction.resx">
+      <DependentUpon>PendingAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Performance.resx">
+      <DependentUpon>Performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformanceCriteria.resx">
+      <DependentUpon>PerformanceCriteria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMasterPopup.resx">
+      <DependentUpon>ProcessMasterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportedBy.resx">
+      <DependentUpon>ReportedBy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CustomerCommunication.rdlc" />
+    <EmbeddedResource Include="Reports\RptDueTickets.rdlc" />
+    <EmbeddedResource Include="ReportDueTickets.resx">
+      <DependentUpon>ReportDueTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDetailsWorkReports.resx">
+      <DependentUpon>ShowDetailsWorkReports.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDetails_CustomerInquiry.resx">
+      <DependentUpon>ShowDetails_CustomerInquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDetails_CustomerMaster.resx">
+      <DependentUpon>ShowDetails_CustomerMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkillsetDetails.resx">
+      <DependentUpon>SkillsetDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpRequirementMaster.resx">
+      <DependentUpon>SpRequirementMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StateCitypopup.resx">
+      <DependentUpon>StateCitypopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDCImagePopup.resx">
+      <DependentUpon>TDCImagePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketsApproval.resx">
+      <DependentUpon>TicketsApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogIn.resx">
+      <DependentUpon>UserLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegister.resx">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App_Data\AutoComplateComboBox\obj\Release\AutoComplateComboBox.csproj.GenerateResource.Cache" />
+    <None Include="App_Data\AutoComplateComboBox\obj\Release\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="App_Data\AutoComplateComboBox\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="App_Data\PagingUserControl\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="App_Data\PagingUserControl\obj\Release\PagingUserControl.csproj.GenerateResource.Cache" />
+    <None Include="bin\Debug\TestingSystem.vshost.exe.config" />
+    <None Include="bin\Debug\TestingSystem.vshost.exe.manifest" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="db_EllipHRDataSet.xsc">
+      <DependentUpon>db_EllipHRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_EllipHRDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_EllipHRDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_EllipHRDataSet.xss">
+      <DependentUpon>db_EllipHRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ds\CustomerComm.xsc">
+      <DependentUpon>CustomerComm.xsd</DependentUpon>
+    </None>
+    <None Include="ds\CustomerComm.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerComm.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds\CustomerComm.xss">
+      <DependentUpon>CustomerComm.xsd</DependentUpon>
+    </None>
+    <None Include="ds\dsApprovedTickets.xsc">
+      <DependentUpon>dsApprovedTickets.xsd</DependentUpon>
+    </None>
+    <None Include="ds\dsApprovedTickets.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsApprovedTickets.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds\dsApprovedTickets.xss">
+      <DependentUpon>dsApprovedTickets.xsd</DependentUpon>
+    </None>
+    <None Include="ds\dsDueTickets.xsc">
+      <DependentUpon>dsDueTickets.xsd</DependentUpon>
+    </None>
+    <None Include="ds\dsDueTickets.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDueTickets.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds\dsDueTickets.xss">
+      <DependentUpon>dsDueTickets.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\EllipHREntities2.datasource" />
+    <None Include="Properties\DataSources\TestingSystems.Properties.DataSources.GetReportOnAlltickets_Result.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_iCAST_IMS_DEMOProductionReportSandNew.xsc">
+      <DependentUpon>_iCAST_IMS_DEMOProductionReportSandNew.xsd</DependentUpon>
+    </None>
+    <None Include="_iCAST_IMS_DEMOProductionReportSandNew.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_iCAST_IMS_DEMOProductionReportSandNew1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_iCAST_IMS_DEMOProductionReportSandNew.xss">
+      <DependentUpon>_iCAST_IMS_DEMOProductionReportSandNew.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\AutoComplateComboBox\obj\Release\TempPE\" />
+    <Folder Include="App_Data\PagingUserControl\obj\Release\TempPE\" />
+    <Folder Include="UplodedFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\AutoComplateComboBox\AutoComplateComboBox.csproj" />
+    <Content Include="App_Data\AutoComplateComboBox\AutoComplateComboBox.csproj.user" />
+    <Content Include="App_Data\AutoComplateComboBox\obj\Release\AutoComplateComboBox.csproj.FileListAbsolute.txt" />
+    <Content Include="App_Data\AutoComplateComboBox\obj\Release\AutoComplateComboBox.dll" />
+    <Content Include="App_Data\AutoComplateComboBox\obj\Release\AutoComplateComboBox.pdb" />
+    <Content Include="App_Data\PagingUserControl\obj\Release\PagingUserControl.csproj.FileListAbsolute.txt" />
+    <Content Include="App_Data\PagingUserControl\obj\Release\PagingUserControl.dll" />
+    <Content Include="App_Data\PagingUserControl\obj\Release\PagingUserControl.pdb" />
+    <Content Include="App_Data\PagingUserControl\PagingUserControl.csproj" />
+    <Content Include="bin\Debug\TestingSystem.vshost.exe" />
+    <Content Include="Image\Add-24.png" />
+    <Content Include="Image\arrow-01.png" />
+    <Content Include="Image\arrow-02.png" />
+    <Content Include="Image\Clear.png" />
+    <Content Include="Image\close %282%29.png" />
+    <Content Include="Image\Close1.png" />
+    <Content Include="Image\i cast_ logo.png" />
+    <Content Include="obj\Debug\TempPE\_iCAST_IMS_DEMOProductionReportSandNew1.Designer.cs.dll" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\ellipsis_infotech.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AutoComplateComboBox\AutoComplateComboBox.csproj">
+      <Project>{7e441ee8-5ea3-48b6-80ba-6e831dab0fa0}</Project>
+      <Name>AutoComplateComboBox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
